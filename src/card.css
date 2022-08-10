@@ -1,0 +1,28 @@
+.card {
+    width: 175px;
+    font-size: 14px;
+}
+
+.katie{
+    height: 200px;
+    width: 200px;
+    border-radius: 9px;
+}
+
+.stars-and-rating{
+    display: flex;
+    align-items: center;
+}
+
+.red-star{
+    height: 14px;
+    margin-right: 4px;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
+}

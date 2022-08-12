@@ -6,3 +6,10 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+.card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}

@@ -1,6 +1,10 @@
 .card {
     width: 175px;
     font-size: 14px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    margin-right: 20px;
 }
 
 .katie{
@@ -25,4 +29,9 @@
 
 .bold {
     font-weight: bold;
+}
+
+.activity-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

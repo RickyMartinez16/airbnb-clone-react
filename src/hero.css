@@ -19,3 +19,7 @@ div {
 .hero-p{
     margin-top: 0;
 }
+
+.hero-text{
+    text-align: center;
+}

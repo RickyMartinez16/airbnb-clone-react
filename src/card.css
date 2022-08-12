@@ -4,7 +4,8 @@
     flex: 0 0 auto;         /* ADD */
     display: flex;          /* ADD */
     flex-direction: column; /* ADD */
-    margin-right: 20px;
+    position: relative;
+    margin: 15px;
 }
 
 .katie{
@@ -34,4 +35,15 @@
 .activity-text {
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    border: solid #ccc;
 }
